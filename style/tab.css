@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
-}
+
 .tab {
     padding-left: 40%;
     overflow: hidden;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
   }
   
   /* Style the buttons inside the tab */
   .tab button {
+    border-radius: 10px;
+    outline: none;
+    margin-top: .3%;
+    margin-left: .5%;
+    margin-bottom: .3%;
+    color: white;
     font-family: 'Poppins', sans-serif;
     background-color: inherit;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 10px 10px;
     transition: 0.3s;
     font-size: 17px;
   }
@@ -29,12 +33,15 @@ body{
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: #ccc;
+    color: black;
+    background-color: white;
+  }
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
   }
   
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
   }

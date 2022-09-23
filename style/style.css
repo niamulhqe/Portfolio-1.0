@@ -1,0 +1,67 @@
+body{
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    color: white;
+  }
+  .wrapper_home{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 15%;
+    width: 1300px;
+    height: 400px;
+    border-radius: 20px;
+  }
+  #home{
+    font-family: 'Poppins', sans-serif;
+  }
+  .home_name{
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .dev_home{
+    margin-bottom: 1%;
+  }
+  .social{
+    cursor: default;
+    margin-top: 3%;
+    word-spacing: 30px;
+  }
+  .social img{
+    cursor: pointer;
+  }
+  .fb_link{
+    transition: 0.3s ease-in;
+  }
+  .githb_link{
+    transition: 0.3s ease-in;
+  }
+  .insta_link{
+    transition: 0.3s ease-in;
+  }
+  .fb_link:hover{
+    opacity: 70%;
+    transform: translateY(-6px);
+  }
+  .githb_link:hover{
+    opacity: 70%;
+    transform: translateY(-6px);
+  }
+  .insta_link:hover{
+    opacity: 70%;
+    transform: translateY(-6px);
+  }
+  footer{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin-right: 1%;
+    margin-bottom: .3%;
+  }

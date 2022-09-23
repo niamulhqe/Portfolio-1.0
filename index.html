@@ -7,35 +7,45 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Solo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/style/style.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/tab.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+            <button class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="openCity(event, 'protfolio')">Protfolio</button>
+            <button class="tablinks" onclick="openCity(event, 'contact')">Contact</button>
           </div>
           
-          <div id="London" class="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
+          <div id="home" class="tabcontent">
+            <div class="wrapper_home">
+              <h1 class="home_name">I'm niamulhqe</h1>
+              <div class="fun_txt">A</div>
+              <div class="dev_home"><span class="dev_home_txt">Front End Developer</span></div>
+              <div class="fun_txt">&</div>
+              <div class="nerd_book_home"><span class="book_nerd_txt">Book Nerd</span></div>
+              <div class="social">
+                <img src="/images/icons/facebook.svg" class="fb_link">
+                <img src="/images/icons/github.svg" class="githb_link">
+                <img src="/images/icons/instagram.svg" class="insta_link">
+              </div>
+            </div>
+            <footer>2022-Present (c) niamulhqe</footer>
           </div>
           
-          <div id="Paris" class="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p> 
+          <div id="protfolio" class="tabcontent">
+
           </div>
           
-          <div id="Tokyo" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
+          <div id="contact" class="tabcontent">
+
           </div>
-        <script src="/script/script.js" async defer></script>
+        <script src="script/script.js" async defer></script>
     </body>
 </html>
