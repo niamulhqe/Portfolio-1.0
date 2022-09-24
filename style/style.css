@@ -1,5 +1,5 @@
 body{
-    background-image: url('/images/bg.jpg');
+    background-image: url('../images/bg.jpg');
     background-size: cover;
 }
 /* Style the tab content */
@@ -58,10 +58,11 @@ body{
     opacity: 70%;
     transform: translateY(-6px);
   }
-  footer{
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    margin-right: 1%;
-    margin-bottom: .3%;
-  }
+footer{
+  font-family: 'Poppins', sans-serif;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  margin-right: 1%;
+  margin-bottom: .3%;
+}
