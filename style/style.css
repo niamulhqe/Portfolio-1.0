@@ -66,3 +66,29 @@ footer{
   margin-right: 1%;
   margin-bottom: .3%;
 }
+.portfolio{
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+.general_info{
+  font-size: 3rem;
+}
+.name_prtflio{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.schl{
+  margin-bottom: 1%;
+}
+.dev_info{
+  margin-top: 3%;
+  font-size: 2rem;
+}
+.knwn_language{
+  margin-top: 1%;
+  margin-left: 38%;
+  margin-right: 30%;
+  text-align: left;
+}
